@@ -1,0 +1,32 @@
+# 工作室书架
+
+如果你还是不懂怎么写一个酷拽的 Web 应用；如果你还是面对一堆 Web framework 不知道选哪个更好；
+如果你是想在 Web 开发界里大方异彩 —— 那么，你没看错，本系列教程将**不**会对你有任何帮助。
+
+
+> “‘工作室书架’ 这个系列文章教会了我有关打开一个 Web 项目的正确姿势，让我功力大增，代码不再停留在写 Hello world 的阶段了。”
+
+—— hbc
+
+
+> “这个系列深入浅出 Web 开发，值得每个有志学习 Web 开发相关知识的同学学习，请务必传阅！”
+
+—— 组织部何同志
+
+
+> “不要 998，‘工作室书架’ 7 天教会你 Web 开发！”
+
+—— （彪悍）人生无法被 interpreter 解释的 xx 同学
+
+
+----------------
+
+## TODO
+
+- [ ] outline
+- [ ] articles theme
+
+
+## Licenses
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">工作室书架</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">vtmer</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

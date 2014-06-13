@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-sketch",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vtmer/bookshelf-book",
+  "description": "Some simple sketch pages fro vtmer bookshelf.",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "sketch"
+  ],
+  "authors": [
+    "hbc <bcxxxxxx@gmail.com>"
+  ],
+  "license": "CC 4.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

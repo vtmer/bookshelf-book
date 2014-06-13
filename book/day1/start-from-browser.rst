@@ -47,8 +47,12 @@ Image from https://flic.kr/p/4dt6aw .
 同时为了实时看到效果，我们也可以（必须）使用一个 livereload 工具来进行自动刷新。
 在 ``code/sketch`` 文件夹中，我们已经提供了一个简单的 `Grunt`_ 脚本，安装好相关依赖后执行 ``grunt`` 即可让妈妈不再担心我们按坏 ``F5`` 了。
 
+
+灵感除了可以想出来以外，也可以受别人的作品影响而得出，所以在不知道怎么造出一个高大上的页面时，不妨去 dribbble_ 上膜拜别人的作品。
+
 .. _`Bootstrap`: http://getbootstrap.com
 .. _`Grunt`: http://gruntjs.com
+.. _dribbble: http://dribbble.com
 
 
 本节拓展阅读

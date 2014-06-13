@@ -22,7 +22,7 @@ Image from https://flic.kr/p/4dt6aw .
 
 假如想要更好的交互效果，还（建议）可以将这个草图搬进我们的浏览器中：
 
-.. image:: imgs/day0-index-sketch.png
+.. image:: imgs/day1-index-sketch.png
 
 `页面代码`_
 

@@ -12,7 +12,7 @@
 
 最简单的方法就是找一张白纸和一支铅笔，在上面画出我们产品各个页面的大概轮廓：
 
-.. images:: imgs/sketch.jpg
+.. image:: imgs/sketch.jpg
 
 Image from https://flic.kr/p/4dt6aw .
 
@@ -22,7 +22,7 @@ Image from https://flic.kr/p/4dt6aw .
 
 假如想要更好的交互效果，还（建议）可以将这个草图搬进我们的浏览器中：
 
-.. images:: imgs/day0-index-sketch.png
+.. image:: imgs/day0-index-sketch.png
 
 `页面代码`_
 
@@ -45,9 +45,9 @@ Image from https://flic.kr/p/4dt6aw .
 
 
 同时为了实时看到效果，我们也可以（必须）使用一个 livereload 工具来进行自动刷新。
-在 ``code/sketch`` 文件夹中，我们已经提供了一个简单的 `Grunt`_ 脚本，安装好相关依赖后执行 ``grunt`` 即可让妈妈不再担心我们按坏 F5 了。
+在 ``code/sketch`` 文件夹中，我们已经提供了一个简单的 `Grunt`_ 脚本，安装好相关依赖后执行 ``grunt`` 即可让妈妈不再担心我们按坏 ``F5`` 了。
 
-.. _`Bootstrap`: http://getboostrap.com
+.. _`Bootstrap`: http://getbootstrap.com
 .. _`Grunt`: http://gruntjs.com
 
 
@@ -55,6 +55,7 @@ Image from https://flic.kr/p/4dt6aw .
 ++++++++++++++++++++
 
 `PSD To HTML Is Dead`_
+
 `Design In GitHub`_
 
 .. _`PSD To HTML Is Dead`: http://blog.teamtreehouse.com/psd-to-html-is-dead

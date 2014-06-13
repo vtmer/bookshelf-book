@@ -8,9 +8,9 @@
 
 和传统的刀耕火种不一样，现代化农业是采用大规模的统一装备进行生产，所以自然效率上会高出很多。
 
-.. img:: imgs/farming.jpg
+.. image:: imgs/farming.jpg
 
-  source: https://flic.kr/p/6eiyzn
+Image from https://flic.kr/p/6eiyzn .
 
 
 同样的道理，我们为了在开发中获得更高的效率，也需要使用在开工之前搭建好一个能在里面高效工(玩)作(耍)的开发环境。

@@ -1,0 +1,55 @@
+/* `b` for bordered-box. */
+.b {
+  border: 1px solid red;
+}
+
+/* Parts */
+.page__wrapper {
+  width: 99.2%;
+}
+
+.bookshelf__header {
+  height: 200px;
+}
+
+.header__logo,
+.header__nav {
+  height: 100px;
+}
+
+.sidenav__group {
+  padding-left: 25px;
+}
+
+.sidenav__group__items {
+  padding-left: 0;
+}
+
+.sidenav__group__item {
+  list-style: none;
+}
+
+.sidenav__group__item a {
+  text-decoration: none;
+}
+
+.body__booklists,
+.header__nav {
+  padding: 0 75px;
+}
+
+.book__cover {
+  height: 250px;
+}
+
+.book__title {
+  font-size: .95em;
+}
+
+.book__author {
+  font-size: .75em;
+}
+
+.booklists__loadmore {
+  margin-top: 25px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "bookshelf-app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vtmer/bookshelf-book",
+  "description": "Web app fro vtmer bookshelf.",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [],
+  "authors": [
+    "hbc <bcxxxxxx@gmail.com>"
+  ],
+  "license": "CC 4.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.1+2"
+  }
+}

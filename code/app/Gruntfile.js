@@ -10,7 +10,7 @@ module.exports = function (grunt) {
             server: {
                 options: {
                     port: 9002,
-                    base: '<%= buildDir >'
+                    base: '<%= buildDir %>'
                 }
             }
         },
@@ -25,6 +25,13 @@ module.exports = function (grunt) {
                         '!{,*/}*.scss'
                     ],
                     dest: '<%= buildDir %>'
+                }, {
+                    expand: true,
+                    cwd: './bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap',
+                    src: [
+                        '*.*'
+                    ],
+                    dest: '<%= buildDir %>/css/bootstrap'
                 }]
             }
         },
@@ -39,7 +46,10 @@ module.exports = function (grunt) {
                     outputStyle: 'compressed',
                     sourceComments: 'map'
                 },
-                files: {}
+                files: {
+                    '<%= buildDir %>/css/bootstrap.css': '<%= srcDir %>/css/bootstrap.scss',
+                    '<%= buildDir %>/css/index.css': '<%= srcDir %>/css/index.scss'
+                }
             }
         },
 

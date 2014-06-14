@@ -1,0 +1,258 @@
+@import "variables";
+
+$header-height: 200px;
+$side-nav-color: #15150f;
+$body-color: #fff;
+$body-md-padding: 0 75px;
+$body-md-min-height: 800px;
+
+.page__wrapper {
+  border-radius: 5px;
+}
+
+.bookshelf__header {
+  @media screen and (min-width: $screen-md-min) {
+    .header__logo {
+      max-height: $header-height;
+      height: $header-height;
+      overflow: hidden;
+
+      background-color: $side-nav-color;
+    }
+
+    .header__nav {
+      max-height: $header-height;
+      height: $header-height;
+      padding: $body-md-padding;
+
+      background-color: $body-color;
+    }
+  }
+}
+
+.bookshelf__body {
+  @media screen and (min-width: $screen-md-min) {
+    min-height: $body-md-min-height;
+
+    background-color: $side-nav-color;
+
+    .body__sidenav {
+      padding-right: 0;
+
+      .sidenav__group {
+        padding-left: 15px;
+      }
+
+      .sidenav__group__header {
+        padding: 25px 0 15px 10px;
+
+        font-size: 18px;
+      }
+
+      .sidenav__group__item {
+        padding: 10px 0 10px 10px;
+
+        a {
+          font-size: 22px;
+          line-height: 22px * 1.5;
+
+          &:hover,
+          &:visited {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .body__booklists {
+      padding: $body-md-padding;
+      min-height: $body-md-min-height;
+      
+      background-color: $body-color;
+    }
+
+    .booklists__book {
+      .book__cover {
+        height: 340px;
+        width: 240px;
+      }
+    }
+  }
+}
+
+.header__logo {
+  display: -webkit-flex;
+  display: flex;
+
+  padding-right: 0;
+}
+
+.header__logo__background {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: 1;
+  background-color: #f7f6f5;
+  color: darken(#f7f6f5, 65%);
+  font-family: serif;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.75;
+
+  -webkit-transform: rotate(-0.5deg);
+  transform: rotate(-0.5deg);
+}
+
+.site-logo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  color: $body-color;
+  background-color: rgba(78, 164, 141, 0.80);
+  z-index: 2;
+
+  &:hover,
+  &:visited {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: 0;
+
+    font-size: 100px;
+    line-height: 200px;
+  }
+}
+
+.bookshelf__header,
+.bookshelf__body {
+  margin-right: 0;
+}
+
+.header__nav__site-name {
+  display: -webkit-flex;
+  display: flex;
+  height: $header-height;
+
+  .site-name__title {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    font-size: 100px - 20px;
+    font-weight: 400;
+  }
+}
+
+.header__nav__search {
+  display: -webkit-flex;
+  display: flex;
+  height: $header-height;
+
+  .search__form {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .search__form__input {
+    padding-left: 0;
+
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid darken($body-color, 10%);
+    box-shadow: none;
+    font-size: 1.25em;
+
+    &:focus {
+      border-radius: 0;
+      border: none;
+      border-bottom: 2px solid darken($body-color, 30%);
+    }
+  }
+
+  .search__form__feedback {
+    top: 0;
+    right: 8px;
+
+    color: darken($body-color, 10%);
+    font-size: 1.25em;
+  }
+}
+
+.body__sidenav {
+  .sidenav__group__header {
+    color: #5f5f5f;
+  }
+
+  .sidenav__group__items {
+    padding-left: 0;
+  }
+
+  .sidenav__group__item {
+    list-style: none;
+
+    a {
+      color: $body-color;
+      display: block;
+    }
+
+    &.active {
+      background-color: $body-color;
+      border-left: 3px solid #4ea48d;
+
+      a {
+        color: $side-nav-color;
+      }
+
+      &:hover {
+        border-left: 3px solid #4ea48d;
+      }
+    }
+
+    &:hover {
+      border-left: 3px solid $side-nav-color;
+    }
+  }
+}
+
+.booklists__book {
+  margin-bottom: 25px;
+
+  .book__cover {
+    margin-bottom: 15px;
+
+    &:hover {
+    }
+  }
+
+  .book__title {
+    margin: 5px 0;
+
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .book__author {
+    margin: 5px 0;
+
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+
+    a {
+      text-decoration: none;
+      color: #666;
+    }
+  }
+}
+
+.booklists__loadmore {
+  margin-bottom: 25px;
+}

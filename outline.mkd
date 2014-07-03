@@ -1,0 +1,43 @@
+# Outline
+
+(This file just a reminder just in case of that I lost all my memory.)
+
+
+## Day 0
+
+介绍整个项目的意图和目标，以及一些基本的准备工作
+
+
+## Day 1
+
+学学怎么模仿人家的设计，从浏览器出发做出一系列页面
+
+
+## Day 2
+
+前端技能以及前端工具链
+
+
+## Day 3
+
+虚拟化的开发环境、包管理的意识（对开发环境、生产环境的认识）
+
+
+## Day 4
+
+逻辑代码的实现、MVC (and his friends) 相关的知识点
+
+
+## Day 5
+
+测试（TDD|BDD、 unit test、CI）
+
+
+## Day6 
+
+OP 相关的知识（使用一个免费的 paas 进行演示？）
+
+
+## Day 7
+
+尾声

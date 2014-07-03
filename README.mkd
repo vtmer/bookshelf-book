@@ -22,7 +22,7 @@
 ----------------
 
 
-## Table of Content
+## Table of Contents
 
 - [第 0 天：开工大吉](book/day0)
 - [第 1 天：让程序猿也一起来做设计](book/day1)
